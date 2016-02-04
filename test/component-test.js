@@ -1,7 +1,7 @@
 // Mocking window and document object:
 require('./dom-mock')('<html><body></body></html>');
 
-var jsdom = require('mocha-jsdom');
+var jsdom = require('jsdom-global');
 var assert = require('assert');
 var React = require('react');
 var TestUtils = require('react-addons-test-utils');
